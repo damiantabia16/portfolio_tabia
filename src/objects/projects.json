@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "project_title": "innobyte",
+        "project_description": "E-Commerce especializado en artículos de informática, principalmente orientado al gaming. Desarrollado con tecnologías como react, tailwindcss, y react-router-dom, el sitio cuenta con un carrito de compras funcional. La información de cada producto se gestiona a través de un array de objetos creado para mantener una base de datos organizada y fácil de actualizar. Innobyte es un ejemplo práctico de aplicación de tecnologías modernas para la creación de un sitio web de comercio electrónico.",
+        "project_image": "project_img/innobyte/innobyte_project_image.jpg",
+        "project_logo": "project_img/innobyte/innobyte-logo.png",
+        "categorie": "Desarrollo Web",
+        "tools_ids": [1, 2, 3, 7, 8],
+        "gallery_images": {
+            "image1": "project_img/innobyte/innobyte1.jpg",
+            "image2": "project_img/innobyte/innobyte2.jpg",
+            "image3": "project_img/innobyte/innobyte3.jpg",
+            "image4": "project_img/innobyte/innobyte4.jpg",
+            "image5": "project_img/innobyte/innobyte5.jpg",
+            "image6": "project_img/innobyte/innobyte6.jpg"   
+        }
+    }
+]

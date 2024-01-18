@@ -1,0 +1,56 @@
+[
+    {
+        "tools": [
+            {
+                "id": 1,
+                "name": "HTML",
+                "icon": "icons/html5-plain.svg"
+            },
+            {
+                "id": 2,
+                "name": "CSS",
+                "icon": "icons/css3-plain.svg"
+            },
+            {
+                "id": 3,
+                "name": "JavaScript",
+                "icon": "icons/javascript-plain.svg"
+            },
+            {
+                "id": 4,
+                "name": "Bootstrap",
+                "icon": "icons/bootstrap-plain.svg"
+            },
+            {
+                "id": 5,
+                "name": "SASS",
+                "icon": "icons/sass-original.svg"
+            },
+            {
+                "id": 6,
+                "name": "jQuery",
+                "icon": "icons/jquery-plain.svg"
+            },
+            {
+                "id": 7,
+                "name": "React",
+                "icon": "icons/react-original.svg"
+            },
+            {
+                "id": 8,
+                "name": "Tailwind",
+                "icon": "icons/tailwindcss-plain.svg"
+            },
+            {
+                "id": 9,
+                "name": "NodeJS",
+                "icon": "icons/nodejs-plain.svg"
+            },
+            {
+                "id": 10,
+                "name": "mySQL",
+                "icon": "icons/mysql-plain.svg"
+            }
+        ]
+    }
+]

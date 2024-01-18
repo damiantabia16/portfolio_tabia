@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#mobile-overlay, #close-bar {
+    width: calc(100% - 56px);
+}
+
+.mbl-item, .dsk-item {
+    font-size: 17px;
+}
+
+.mbl-item a {
+    line-height: 2.5em;
+}
+
+.dsk-item a:hover {
+    color: #ffdc00;
+    transition: 0.3s;
+}
+
+.dsk-item a {
+    padding: 0 1.3vw;
+}
+
+.card-details {
+    letter-spacing: 0;
+}
+
+.tool-card:not(:nth-child(3)):not(:nth-child(4)) {
+    max-width: calc(50% - 10px);
+}
+
+.hide {
+    display: none;
+}
+
+@media (min-width: 520px) {
+    .hide {
+        display: inline-block;
+    }
+    .tool-text {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .tool-card {
+        max-width: 100%;
+        width: calc(33.33333% - 10px);
+    }
+    .tool-card {
+        align-items: start;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+      }
+      to {
+        transform: translateY(0%);
+      }
+}
+
+#full-nav.fixed {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    background: rgba(11, 11, 11, 0.7);
+    backdrop-filter: blur(10px);
+    animation: slideDown 0.3s ease-in-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(0%);
+      }
+      to {
+        transform: translateY(-100%);
+      }
+}
+
+#available {
+    letter-spacing: 0;
+}
+
+#wp-li-gh {
+    line-height: 30px;
+}
+
+@media (min-width: 640px) {
+
+    .project-title {
+        font-size: calc(50px + 26*((100vw - 576px)/1024));
+    }
+
+}
