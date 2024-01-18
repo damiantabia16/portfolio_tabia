@@ -21,7 +21,18 @@ const Hero = () => {
     top: scrollToPosition,
     behavior: 'smooth',
     });
-  }; 
+  };
+
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = 'CV_FrontEnd-TABIA_Damián_Ariel.pdf'; // Reemplaza con la ruta de tu archivo CV
+    link.download = 'DAMIAN_TABIA_CV.pdf'; // Puedes personalizar el nombre del archivo
+
+    document.body.appendChild(link);
+    link.click();
+
+    document.body.removeChild(link);
+  };
 
   return (
     <section id='hero' className='px-[20px] font-title max-w-[1200px] m-auto'>
@@ -56,7 +67,7 @@ const Hero = () => {
                                 <button className='tracking-[0.17em] font-normal'>Contáctame</button>
                             </div>
                         </Link>
-                        <div className='cursor-pointer rounded-md p-[15px] mx-[20px] border border-white transition duration-300 hover:bg-white hover:text-[#111111]'>
+                        <div onClick={handleDownloadCV} className='cursor-pointer rounded-md p-[15px] mx-[20px] border border-white transition duration-300 hover:bg-white hover:text-[#111111]'>
                             <button className='tracking-[0.17em] font-normal'>Descargar CV</button>
                         </div>
                     </motion.div>
